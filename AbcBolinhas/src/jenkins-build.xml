@@ -6,6 +6,7 @@ and open the template in the editor.
 -->
 
 
+
     <project name="exemplo para build no jenkins">
 			<path id="tests.classpath" path=".">
 				<fileset dir="lib/">
@@ -28,7 +29,7 @@ and open the template in the editor.
 					<classpath refid="tests.classpath" />
 					<batchtest fork="yes" todir="${artifacts.dir}/reports">
 						<fileset dir="target/classes-test/" >
-							<include name="**/*Test.class" />
+							<include name="**/*ImpostoTest.class" />
 						</fileset>
 					</batchtest>
 				</junit>
