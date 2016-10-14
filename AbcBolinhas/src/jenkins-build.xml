@@ -6,7 +6,6 @@ and open the template in the editor.
 -->
 
 
-<root>
     <project name="exemplo para build no jenkins">
 			<path id="tests.classpath" path=".">
 				<fileset dir="lib/">
@@ -38,5 +37,3 @@ and open the template in the editor.
 				<jar destfile="target/jenkins-exemplo.jar" basedir="target/classes/" />
 			</target>
 		</project>
-
-</root>
