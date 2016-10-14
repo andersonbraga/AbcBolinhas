@@ -29,7 +29,7 @@ and open the template in the editor.
 					<classpath refid="tests.classpath" />
 					<batchtest fork="yes" todir="${artifacts.dir}/reports">
 						<fileset dir="target/classes-test/" >
-							<include name="**/*ImpostoTest.class" />
+							<include name="**/*Test.class" />
 						</fileset>
 					</batchtest>
 				</junit>
